@@ -1,0 +1,899 @@
+@font-face {
+    font-family: 'Jaturat';
+    src: url('fonts/jaturat/Jaturat-Regular.woff2') format('woff2'),
+        url('fonts/jaturat/Jaturat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-BoldItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-Black.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-BlackItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-Light.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-Bold.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-MediumItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-Italic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-LightItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-ExtraLight.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-ExtraBold.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-SemiBold.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-Regular.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-ThinItalic.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-Thin.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('fonts/jaturat/JaturatDEMO-Medium.woff2') format('woff2'),
+        url('fonts/jaturat/JaturatDEMO-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Clear Sans */
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans-Bold.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans-Italic.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans-Medium.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans-Light.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans-Thin.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clear Sans', sans-serif;
+    src: url('fonts/clear-sans/ClearSans.woff2') format('woff2'),
+        url('fonts/clear-sans/ClearSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0 !important;
+    font-family: 'Clear Sans', sans-serif !important;
+    background: #000 !important;
+    color: #fff !important;
+    position: relative;
+}
+
+.arrow-up {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: #9DCD5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 31px;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    animation: moveUp .5s infinite alternate;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.arrow-up:hover{
+    background: #BFE5EF;
+}
+
+.arrow-up a{
+    color: #fff !important;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+header {
+    position: relative;
+    min-height: 695px;
+}
+
+.drims-logo-main {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.video-section{
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    padding: 60px 0 0;
+}
+
+.bg-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.content-up{
+    position: relative;
+    z-index: 1;
+}
+
+
+.afpdrims-logo em,
+.afpdrims-logo span{
+    font-style: normal !important;
+    display: block;
+    text-align: center;
+    font-family: 'Jaturat';
+}
+
+.afpdrims-logo em {
+    font-size: 7.4px;
+    text-transform: uppercase;
+    letter-spacing: .557em;
+    padding: 16px 0 0;
+    font-weight: 600;
+}
+
+.afpdrims-logo-text {
+    font-size: 32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jaturat';
+}
+
+.afpdrims-banner-text {
+    text-align: center;
+    padding: 80px 0 0;
+    font-family: 'Jaturat';
+    letter-spacing: 0.2em;
+}
+
+.afpdrims-banner-text span,
+.afpdrims-banner-text em{
+    font-style: italic;
+    font-size: 59px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #BFE5EF;
+    display: block;
+    line-height: 59px;
+    font-family: 'Jaturat';
+    text-shadow: 2px 1px #BFE5EF, 2px 1px #000, 2px 1px #000,  2px 1px #000, 2px 1px #000;
+}
+
+.afpdrims-banner-text em{
+    color: #9DCD5A;
+    text-shadow: 2px 1px #9DCD5A, 2px 1px #000, 2px 1px #000,  2px 1px #000, 2px 1px #000;
+}
+
+.banner-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 68px 0 0;
+    flex-wrap: wrap;
+}
+
+.banner-cta a {
+    position: relative;
+    text-decoration: none;
+    background: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.banner-cta a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #9DCD5A;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.banner-cta a:hover:before{
+    width: 100%;
+    opacity: 1;
+}
+
+.banner-cta a span{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    height: 40px;
+    font-weight: 700;
+    color: #000080;
+    font-size: 15px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.banner-cta a:hover span{
+    color: #fff;
+}
+
+.banner-cta a:hover span{
+    background: transparent;
+}
+
+/* About Section */
+.about-section{
+    color: #fff;
+    padding: 70px 3%;
+    overflow: hidden;
+}
+
+.about-descrip h1 {
+    padding: 0 0 30px;
+}
+
+.global-title {
+    font-size: 48px;
+    font-family: 'Jaturat';
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 25px 0 0;
+}
+
+.global-box {
+    padding: 0 0 30px;
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.video-circle {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.video-circle-holder {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wavy-line{
+    position: absolute;
+    bottom: -113px; /* Adjust this value as needed */
+    left: 66%;
+    transform: translateX(-50%);
+    width: 86%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Patients Access */
+.patient-access-holder {
+    position: relative;
+    color: #fff;
+    padding: 70px 3% 100px;
+}
+
+.patient-access-cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.patient-access-list {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.patient-access-list a{
+    color: #fff !important;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.patient-access-list:hover{
+    transform: scale(1.2);
+}
+
+.patient-access-list.light-blue {
+    background: linear-gradient(to right, #1c98ed 0%, #bfe5ef 100%);
+}
+
+.patient-access-list.green {
+    background: linear-gradient(to right,  #32620e 0%,#9dcd5a 100%); 
+}
+
+.patient-access-list.blue { 
+    background: linear-gradient(to right,  #000080 0%,#1848a0 100%);
+
+}
+
+.patient-access-list.gray {
+    background: linear-gradient(to right,  #666769 0%,#8e99a2 100%);
+}
+
+.patient-access-title span {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    padding: 7px 0;
+    text-shadow: 3px 4px 5px rgb(0 0 0 / 75%);
+}
+
+.patient-access-descrip p {
+    text-align: center;
+}
+
+.patient-access-list.gray img {
+    opacity: 0;
+}
+
+
+/* Informational Videos */
+.informational-video {
+    position: relative;
+    padding: 100px 3%;
+}
+
+.video-list-holder {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.video-list {
+    width: 100%;
+}
+
+.informational-video
+.video-container {
+    display: block;
+}
+
+.informational-video
+.video-circle {
+    width: 100%;
+    height: auto;
+    border-radius: initial;
+}
+
+.video-title-descrip span {
+    display: block;
+    font-family: 'Jaturat';
+    position: relative;
+    padding: 15px 0 0;
+    margin: 16px 0 0;
+    font-size: 18px;
+    margin: 0 0 26px;
+}
+
+.video-title-descrip span::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background: #fff;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.video-title-descrip em {
+    font-style: normal;
+}
+
+/* Connect with us */
+.afp-drims-connect {
+    min-height: 800px;
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.afp-drims-connect .bg-video {
+    top: 50%;
+}
+
+.connect-title {
+    font-size: 36px;
+    background: #bfe5ef;
+    color: black;
+    font-family: 'Jaturat';
+    padding: 0 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 60px 0 0;
+    max-width: 450px;
+    text-align: center;
+}
+
+.connect-info span a {
+    font-size: 40px;
+}
+
+.connect-info {
+    margin: 60px 0 0;
+}
+
+.connect-info-list {
+    padding: 0;
+    font-size: 35px;
+}
+
+.connect-info-list span {
+    display: block;
+}
+
+/* Login Form */
+
+section.login-form {
+    min-height: 800px;
+    padding: 150px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-form .bg-video {
+    top: 50%;
+}
+
+.drims-input input {
+    width: 500px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000080;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+}
+
+::placeholder {color: #000080;}
+
+.drims-form {
+    max-width: 500px;
+    margin: 50px auto 0;
+}
+
+.drims-form .drims-input {
+    margin: 0 0 20px;
+}
+
+.drims-submit input {
+    width: 100px;
+    height: 50px;
+    outline: none;
+    text-transform: uppercase;
+    background: #BFE5EF;
+    color: #000;
+    border: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.drims-submit input:hover{
+    background: #9DCD5A;
+    color: #fff;
+}
+
+.drims-submit {
+    text-align: center;
+}
+
+/* Mobile responsive */
+@media only screen and (max-width: 1200px){
+    .global-title {
+        font-size: 44px;
+    }
+
+    .video-list-holder {
+        gap: 53px;
+    }
+
+    .video-list-holder {
+        gap: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    .global-title {
+        font-size: 37px;
+    }
+
+    .patient-access-title span {
+        font-size: 24px;
+    }
+
+    .connect-title {
+        font-size: 27px;
+        max-width: 360px;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+    .about-section .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .video-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .video-list-holder {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .video-list {
+        width: 100%;
+    }
+
+    .informational-video .video-circle {
+        margin: 0 auto;
+    }
+
+    .video-title-descrip span::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .video-container {
+        justify-content: center;
+    }
+
+    .dental-logo {
+        text-align: center;
+    }
+
+    .global-title {
+        text-align: center;
+    }
+    
+    .global-box {
+        text-align: center;
+    }
+
+    .patient-access-cta {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .patient-access-list {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+
+    .video-list-holder {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .video-title-descrip span::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .afp-drims-connect .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .connect-title {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .connect-info-list {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .afpdrims-banner-text span, .afpdrims-banner-text em {
+        font-size: 39px;
+        line-height: 43px;
+    }
+
+    .banner-cta {
+        flex-direction: column;
+    }
+
+    .drims-input input {
+        width: 385px;
+    }
+
+    .drims-form .drims-input {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .afpdrims-banner-text span, .afpdrims-banner-text em {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .video-circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .global-title {
+        font-size: 28px;
+    }
+
+    .connect-title {
+        font-size: 16px;
+    }
+
+    .connect-info-list {
+        font-size: 17px;
+    }
+
+    .drims-input input {
+        width: 276px;
+    }
+}
