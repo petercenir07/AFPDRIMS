@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Jaturat';
+    src: url('Jaturat-Regular.woff2') format('woff2'),
+        url('Jaturat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat';
+    src: url('Jaturat-Regular.woff2') format('woff2'),
+        url('Jaturat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-BoldItalic.woff2') format('woff2'),
+        url('JaturatDEMO-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-Black.woff2') format('woff2'),
+        url('JaturatDEMO-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-BlackItalic.woff2') format('woff2'),
+        url('JaturatDEMO-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-ExtraLightItalic.woff2') format('woff2'),
+        url('JaturatDEMO-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-Light.woff2') format('woff2'),
+        url('JaturatDEMO-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-Bold.woff2') format('woff2'),
+        url('JaturatDEMO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-MediumItalic.woff2') format('woff2'),
+        url('JaturatDEMO-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-Italic.woff2') format('woff2'),
+        url('JaturatDEMO-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-LightItalic.woff2') format('woff2'),
+        url('JaturatDEMO-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-ExtraLight.woff2') format('woff2'),
+        url('JaturatDEMO-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-ExtraBold.woff2') format('woff2'),
+        url('JaturatDEMO-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-ExtraBoldItalic.woff2') format('woff2'),
+        url('JaturatDEMO-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-SemiBold.woff2') format('woff2'),
+        url('JaturatDEMO-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-SemiBoldItalic.woff2') format('woff2'),
+        url('JaturatDEMO-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-Regular.woff2') format('woff2'),
+        url('JaturatDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-ThinItalic.woff2') format('woff2'),
+        url('JaturatDEMO-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-Thin.woff2') format('woff2'),
+        url('JaturatDEMO-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaturat DEMO';
+    src: url('JaturatDEMO-Medium.woff2') format('woff2'),
+        url('JaturatDEMO-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
